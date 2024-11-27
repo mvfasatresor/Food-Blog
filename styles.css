@@ -42,6 +42,7 @@ font-size: 24px;
 .mail-link {
     text-decoration: none;
     font-size: 24px;
+    color: black;
 }
 
 .main {
@@ -73,14 +74,16 @@ h2 {
     margin: 20px 0;
 
 }
+a:hover{
+    background-color: black
+}
 
 
 .pagination a {
     margin: 0 5px;
     text-decoration: none;
-    background-color: black;
-    padding: 15px;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .pagination .active {
