@@ -109,12 +109,137 @@ margin-top: 15px;
     padding: 15px 0 15px 0;
 }
 
-footer {
-    background-color: white;
-    color: #171717;
-}
-
 hr{
     margin: auto 80px;
     opacity: 0.2;
+    margin-top: 60px;
+}
+/* footer */
+footer {
+   
+    color: #171717;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    margin: 0px;
+    height: 283.8px;
+   
+}
+.footer-content{
+  
+    display:flex;
+    justify-content:space-between;
+    
+}
+.one{
+    border: 5px;
+    width: 45%;
+    padding: 0 8px 0 8px;
+    
+    
+}
+.one h1 {
+    color: black;
+    text-align: left;
+    font-weight: 100;
+    
+    margin:  10px 0 10px 0;
+    font-size: 24px;
+}
+a{
+    color: black;
+    
+}
+
+
+.child-footer{
+    text-align: left;
+}
+
+.two{
+   
+    width: 33%;
+    align-items: center;
+    color: black;
+    padding: 0 8px 0 8px;
+    height:  219.8px;
+    width: 383.987px;
+    font-size: 15px;
+    display: block;
+    float: left;
+ 
+    
+}
+.two h1 {
+    color: black;
+    text-align: left;
+ 
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px 0 10px 0;
+    font-weight: 100;
+}
+.two p{
+    text-align: left;
+    top: 0;
+}
+.three{
+  
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 8px 0 8px;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+   
+    
+}
+.three h1{
+    color: black;
+    text-align: left;
+ 
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px 0 10px 0;
+    font-weight: 100;
+}
+
+
+footer img{
+    width: 50px;
+    height: 50px;
+    padding: 0 20px;
+    
+}
+.child, .child-2{
+    display: flex;
+    padding: 10px;
+   /* border-spacing: 10px 10px; */
+    
+}
+.child:hover{
+    background-color: #e9e7e7;
+    
+}
+.child-2:hover{
+    background-color: #e9e7e7;
+}
+.three div div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tags p{
+    background-color:  #616161;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-family: serif;
+    display: inline-block;
+
+}
+#changes{
+    background-color: black;
+    color: white;
 }
