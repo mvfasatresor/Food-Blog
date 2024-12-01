@@ -6,9 +6,10 @@
   } */
 
   body {
-    font-family: Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 14.52px;
 }
 
 .navbar {
@@ -76,29 +77,42 @@ h2 {
     text-align: center;
     margin: 20px 0;
     padding: 10px 0 50px 0;
-
+    
 }
-a:hover{
-    background-color: black
+.pagination a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+   
 }
 
 
-.pagination a {
+.pagination a{
     margin: 0 5px;
     text-decoration: none;
     background-color: white;
     color: black;
+    padding: 10px 15px;
+     letter-spacing: 0;
 }
 
 .pagination .active {
     font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.pagination .active:hover{
+    background-color: rgb(195, 191, 191);
+    color: black;
 }
 
 .about {
     text-align: center;
     padding:20px;
-    margin-top: 20px;
+    margin:20px 30px 50px 30px;
+    
 }
+
 
 .about img {
 height: 532.993px;
@@ -108,28 +122,30 @@ margin-top: 15px;
 .about h2{
     padding: 15px 0 15px 0;
 }
+h3{
+    font-weight: 100;
+               
+}
 
 hr{
     margin: auto 80px;
     opacity: 0.2;
-    margin-top: 60px;
 }
 /* footer */
 footer {
    
     color: #171717;
     text-align: center;
-    padding-right: 100px;
-    padding-left: 100px;
+    margin: 0 80px;
     display: block;
-    margin: 0px;
     height: 283.8px;
-   
+ 
 }
 .footer-content{
   
     display:flex;
     justify-content:space-between;
+    margin-top: 50px;
     
 }
 .one{
@@ -215,31 +231,41 @@ footer img{
 .child, .child-2{
     display: flex;
     padding: 10px;
-   /* border-spacing: 10px 10px; */
+   
     
 }
+.child-2{
+    border-top: #e9e7e7 1px solid;
+}
+
 .child:hover{
     background-color: #e9e7e7;
+    
     
 }
 .child-2:hover{
     background-color: #e9e7e7;
 }
-.three div div {
+.three div div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .tags p{
     background-color:  #616161;
     color: white;
-    padding: 2px 5px;
+    padding: 2px 4.5px;
     font-size: 12px;
     font-family: serif;
     display: inline-block;
 
 }
-#changes{
+#travel{
     background-color: black;
     color: white;
+    padding: 2px 7px;
+}
+h1,h2{
+    font-weight:100;
 }
